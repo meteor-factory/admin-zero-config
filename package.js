@@ -26,7 +26,9 @@ Package.onUse(function(api) {
   api.addFiles('schema.coffee');
   api.addFiles('admin-config.coffee');
 
+  api.addFiles('server/database.coffee', 'server');
   api.addFiles('server/startup.coffee', 'server');
+  api.addFiles('server/publish.coffee', 'server');
 
 });
 
