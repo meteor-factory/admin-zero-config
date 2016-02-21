@@ -24,3 +24,5 @@
       instance: Meteor.users
 
     _collections
+
+    # Add schema

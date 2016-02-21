@@ -26,7 +26,7 @@ Package.onUse(function(api) {
   api.addFiles('schema.coffee');
   api.addFiles('admin-config.coffee');
 
-  api.addFiles('TEMP.coffee');
+  api.addFiles('server/startup.coffee', 'server');
 
 });
 
