@@ -16,6 +16,7 @@
       if @_isCollection(obj) and not _.contains(@_defaultIgnoredCollections, key)
         _collections.push
           name: key
+          _name: obj._name
           instance: obj
 
     # Add users schema

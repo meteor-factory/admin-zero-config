@@ -30,6 +30,8 @@ Package.onUse(function(api) {
   api.addFiles('server/startup.coffee', 'server');
   api.addFiles('server/publish.coffee', 'server');
 
+  api.addFiles('client/startup.coffee', 'client');
+
 });
 
 Package.onTest(function(api) {

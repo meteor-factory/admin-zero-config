@@ -90,6 +90,9 @@ _getKeysByValue = (obj, key, isArray) ->
       if propertyType == 'boolean'
         propertyType = 'Boolean'
 
+      if propertyType instanceof Date
+        propertyType = Date
+
       if propertyType == '[string]'
         propertyType = [String]
 
